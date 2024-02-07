@@ -1,0 +1,1414 @@
+1. **Python Intro:*
+   - Introduction to Python, a high-level programming language known for its readability and versatility.
+
+2. **Python Get Started:**
+   - Steps to get started with Python, including installation and basic setup.
+
+3. **Python Syntax:**
+   - The rules that define the combinations of symbols and keywords in Python. For example:
+     ```python
+     print("Hello, World!")
+     ```
+
+4. **Python Comments:**
+   - Ways to add comments to code for documentation. Comments are not executed.
+     ```python
+     # This is a comment
+     ```
+
+5. **Python Variables:**
+   - Containers for storing data values. For example:
+     ```python
+     x = 5
+     ```
+
+6. **Python Data Types:**
+   - Different types of data in Python, such as integers, floats, strings, etc.
+     ```python
+     x = 5       # Integer
+     y = 3.2     # Float
+     name = "John"  # String
+     ```
+
+7. **Python Numbers:**
+   - Numeric data types in Python, including integers and floats.
+     ```python
+     x = 5       # Integer
+     y = 3.2     # Float
+     ```
+
+8. **Python Casting:**
+   - Converting one data type into another. For example:
+     ```python
+     x = int(3.2)   # Casting float to integer
+     ```
+
+9. **Python Strings:**
+   - Sequences of characters, enclosed in quotes. For example:
+     ```python
+     greeting = "Hello, World!"
+     ```
+
+10. **Python Booleans:**
+    - Represents the truth values True or False. Used in logical operations.
+      ```python
+      x = True
+      y = False
+      ```
+
+11. **Python Operators:**
+    - Symbols that perform operations on variables and values. For example:
+      ```python
+      result = 5 + 3  # Addition
+      ```
+
+12. **Python Lists:**
+    - Ordered, mutable collections. For example:
+      ```python
+      mylist = [1, 2, 3, "apple"]
+      ```
+
+13. **Access List Items:**
+    - Accessing elements in a list using indexing. For example:
+      ```python
+      print(mylist[2])  # Output: 3
+      ```
+
+14. **Change List Items:**
+    - Modifying elements in a list. For example:
+      ```python
+      mylist[1] = "banana"
+      ```
+
+15. **Add List Items:**
+    - Adding elements to a list. For example:
+      ```python
+      mylist.append("orange")
+      ```
+
+16. **Remove List Items:**
+    - Removing elements from a list. For example:
+      ```python
+      mylist.remove("apple")
+      ```
+
+17. **Loop Lists:**
+    - Iterating over elements in a list using loops. For example:
+      ```python
+      for item in mylist:
+          print(item)
+      ```
+
+18. **List Comprehension:**
+    - A concise way to create lists. For example:
+      ```python
+      squares = [x**2 for x in range(5)]
+      ```
+
+19. **Sort Lists:**
+    - Sorting elements in a list. For example:
+      ```python
+      mylist.sort()
+      ```
+
+20. **Copy Lists:**
+    - Creating a copy of a list. For example:
+      ```python
+      new_list = mylist.copy()
+      ```
+Certainly! Let's continue with the next set of topics:
+
+21. **Join Lists:**
+    - Combining two lists into one. For example:
+      ```python
+      list1 = [1, 2, 3]
+      list2 = ['a', 'b', 'c']
+      joined_list = list1 + list2
+      ```
+
+22. **List Methods:**
+    - Various methods available for manipulating lists. For example:
+      ```python
+      mylist.append(4)      # Adds 4 to the end of the list
+      mylist.extend([5, 6])  # Extends the list with another list
+      ```
+
+23. **List Exercises:**
+    - Practice exercises to reinforce understanding of list concepts. For example:
+      - Write a program to find the sum of elements in a list.
+
+24. **Python Tuples:**
+    - Immutable ordered collections. For example:
+      ```python
+      mytuple = (1, 2, 3, 'apple')
+      ```
+
+25. **Python Sets:**
+    - Unordered collections of unique elements. For example:
+      ```python
+      myset = {1, 2, 3, 'apple'}
+      ```
+
+26. **Python Dictionaries:**
+    - Unordered collections of key-value pairs. For example:
+      ```python
+      mydict = {'name': 'John', 'age': 25}
+      ```
+
+27. **Python If...Else:**
+    - Conditional statements for decision-making. For example:
+      ```python
+      if x > 0:
+          print('Positive')
+      else:
+          print('Non-positive')
+      ```
+
+28. **Python While Loops:**
+    - Executing a set of statements as long as a condition is true. For example:
+      ```python
+      i = 0
+      while i < 5:
+          print(i)
+          i += 1
+      ```
+
+29. **Python For Loops:**
+    - Iterating over a sequence. For example:
+      ```python
+      for item in mylist:
+          print(item)
+      ```
+
+30. **Python Functions:**
+    - Blocks of reusable code. For example:
+      ```python
+      def greet(name):
+          print(f"Hello, {name}!")
+      greet('Alice')
+      ```
+
+31. **Python Lambda:**
+    - Anonymous functions defined with the `lambda` keyword. For example:
+      ```python
+      square = lambda x: x**2
+      ```
+
+32. **Python Arrays:**
+    - Arrays are collections similar to lists but more specialized.
+
+33. **Python Classes/Objects:**
+    - Defining and using classes and objects in Python. For example:
+      ```python
+      class Dog:
+          def __init__(self, name):
+              self.name = name
+      mydog = Dog('Buddy')
+      ```
+
+34. **Python Inheritance:**
+    - Creating a new class by inheriting attributes and methods from another class.
+
+35. **Python Iterators:**
+    - Objects that can be iterated (looped) over. For example:
+      ```python
+      mytuple = (1, 2, 3)
+      myiter = iter(mytuple)
+      ```
+
+36. **Python Polymorphism:**
+    - The ability to use a single interface for different data types. For example:
+      ```python
+      print(len(mylist))
+      print(len(mytuple))
+      ```
+
+37. **Python Scope:**
+    - The visibility and accessibility of variables within different parts of a program.
+
+38. **Python Modules:**
+    - Modular programming with separate files for different functionalities.
+
+39. **Python Dates:**
+    - Working with date and time in Python using the `datetime` module.
+
+40. **Python Math:**
+    - Mathematical operations and functions in Python. For example:
+      ```python
+      import math
+      print(math.sqrt(25))
+      ```
+
+If you have specific questions or if you'd like more detailed examples, feel free to ask!
+Certainly! Let's continue with the next set of topics:
+
+41. **Python JSON:**
+    - Working with JSON (JavaScript Object Notation) data. For example:
+      ```python
+      import json
+      data = '{"name": "John", "age": 30, "city": "New York"}'
+      parsed_data = json.loads(data)
+      ```
+
+42. **Python RegEx:**
+    - Regular expressions for pattern matching in strings. For example:
+      ```python
+      import re
+      pattern = re.compile(r'\d+')
+      result = pattern.match('123abc')
+      ```
+
+43. **Python PIP:**
+    - Package management system used to install and manage Python packages. For example:
+      ```python
+      # Install a package
+      pip install package_name
+      ```
+
+44. **Python Try...Except:**
+    - Handling exceptions and errors in Python. For example:
+      ```python
+      try:
+          result = 10 / 0
+      except ZeroDivisionError:
+          print("Cannot divide by zero.")
+      ```
+
+45. **Python User Input:**
+    - Accepting input from the user. For example:
+      ```python
+      name = input("Enter your name: ")
+      ```
+
+46. **Python String Formatting:**
+    - Formatting strings in Python using different methods. For example:
+      ```python
+      name = "Alice"
+      age = 25
+      print(f"My name is {name} and I am {age} years old.")
+      ```
+
+47. **File Handling:**
+    - Manipulating files in Python, including reading, writing, and deleting files.
+
+48. **Python File Handling:**
+    - Working with files in Python. For example:
+      ```python
+      file = open("example.txt", "r")
+      content = file.read()
+      file.close()
+      ```
+
+49. **Python Read Files:**
+    - Reading data from files in Python. For example:
+      ```python
+      with open("example.txt", "r") as file:
+          content = file.read()
+      ```
+
+50. **Python Write/Create Files:**
+    - Creating or writing data to files in Python. For example:
+      ```python
+      with open("new_file.txt", "w") as file:
+          file.write("Hello, World!")
+      ```
+
+51. **Python Delete Files:**
+    - Deleting files in Python. For example:
+      ```python
+      import os
+      os.remove("file_to_delete.txt")
+      ```
+
+52. **Python Modules:**
+    - Modular programming with separate files for different functionalities.
+
+53. **NumPy Tutorial:**
+    - Introduction to NumPy, a library for numerical computing with Python.
+
+54. **Pandas Tutorial:**
+    - Introduction to Pandas, a library for data manipulation and analysis.
+
+55. **SciPy Tutorial:**
+    - Introduction to SciPy, a library for scientific computing.
+
+56. **Django Tutorial:**
+    - Introduction to Django, a web framework for building web applications.
+
+57. **Python Matplotlib:**
+    - Introduction to Matplotlib, a library for creating static, animated, and interactive visualizations in Python.
+
+58. **Matplotlib Intro:**
+    - Basics of Matplotlib for plotting graphs and charts.
+
+59. **Matplotlib Get Started:**
+    - Getting started with Matplotlib.
+
+60. **Matplotlib Pyplot:**
+    - Using Matplotlib's `pyplot` module for creating plots.
+
+61. **Matplotlib Plotting:**
+    - Plotting various types of plots using Matplotlib. For example:
+      ```python
+      import matplotlib.pyplot as plt
+      x = [1, 2, 3, 4]
+      y = [10, 15, 7, 12]
+      plt.plot(x, y, label='Line Plot')
+      plt.xlabel('X-axis')
+      plt.ylabel('Y-axis')
+      plt.legend()
+      plt.show()
+      ```
+
+62. **Matplotlib Markers:**
+    - Using markers in Matplotlib plots for data points. For example:
+      ```python
+      plt.scatter(x, y, marker='o', label='Scatter Plot')
+      ```
+
+63. **Matplotlib Line:**
+    - Customizing line styles and properties in Matplotlib. For example:
+      ```python
+      plt.plot(x, y, linestyle='--', color='red', label='Dashed Line')
+      ```
+
+64. **Matplotlib Labels:**
+    - Adding labels and titles to Matplotlib plots. For example:
+      ```python
+      plt.title('My Plot')
+      ```
+
+65. **Matplotlib Grid:**
+    - Displaying grid lines in Matplotlib plots. For example:
+      ```python
+      plt.grid(True)
+      ```
+
+66. **Matplotlib Subplot:**
+    - Creating subplots in Matplotlib for multiple plots. For example:
+      ```python
+      plt.subplot(2, 1, 1)
+      plt.plot(x, y)
+      plt.subplot(2, 1, 2)
+      plt.scatter(x, y)
+      ```
+
+67. **Matplotlib Scatter:**
+    - Creating scatter plots in Matplotlib. For example:
+      ```python
+      plt.scatter(x, y, color='green', marker='x', label='Scatter Plot')
+      ```
+
+68. **Matplotlib Bars:**
+    - Creating bar plots in Matplotlib. For example:
+      ```python
+      plt.bar(x, y, color='purple', label='Bar Plot')
+      ```
+
+69. **Matplotlib Histograms:**
+    - Generating histograms in Matplotlib. For example:
+      ```python
+      plt.hist(y, bins=3, color='orange', label='Histogram')
+      ```
+
+70. **Matplotlib Pie Charts:**
+    - Creating pie charts in Matplotlib. For example:
+      ```python
+      labels = ['A', 'B', 'C', 'D']
+      sizes = [20, 30, 25, 25]
+      plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+      ```
+
+71. **Machine Learning - Getting Started:**
+    - Introduction to machine learning concepts and getting started with ML.
+
+72. **Machine Learning - Mean Median Mode:**
+    - Understanding measures of central tendency in statistics.
+
+73. **Machine Learning - Standard Deviation:**
+    - Calculating standard deviation for data distribution.
+
+74. **Machine Learning - Percentile:**
+    - Understanding percentiles in statistics.
+
+75. **Machine Learning - Data Distribution:**
+    - Exploring different types of data distributions.
+
+If you have specific questions or if you'd like more detailed examples, feel free to ask!
+
+Absolutely! Let's continue with the next set of topics and provide examples for each:
+
+76. **Machine Learning - Normal Data Distribution:**
+    - Understanding normal (Gaussian) data distribution.
+
+    ```python
+    import numpy as np
+    import matplotlib.pyplot as plt
+
+    data = np.random.normal(0, 1, 1000)  # Mean=0, Standard Deviation=1
+    plt.hist(data, bins=50, color='skyblue', edgecolor='black')
+    plt.title('Normal Data Distribution')
+    plt.show()
+    ```
+
+77. **Machine Learning - Scatter Plot:**
+    - Creating a scatter plot for visualizing relationships between two variables.
+
+    ```python
+    import matplotlib.pyplot as plt
+
+    x = [1, 2, 3, 4, 5]
+    y = [10, 12, 8, 15, 20]
+
+    plt.scatter(x, y, color='red', marker='o')
+    plt.title('Scatter Plot')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+    plt.show()
+    ```
+
+78. **Machine Learning - Linear Regression:**
+    - Implementing linear regression for predicting values.
+
+    ```python
+    import numpy as np
+    from sklearn.linear_model import LinearRegression
+    import matplotlib.pyplot as plt
+
+    X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+    y = np.array([10, 12, 8, 15, 20])
+
+    model = LinearRegression()
+    model.fit(X, y)
+
+    plt.scatter(X, y, color='blue', marker='o')
+    plt.plot(X, model.predict(X), color='red', linewidth=2)
+    plt.title('Linear Regression')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+    plt.show()
+    ```
+
+79. **Machine Learning - Polynomial Regression:**
+    - Implementing polynomial regression for nonlinear relationships.
+
+    ```python
+    import numpy as np
+    from sklearn.preprocessing import PolynomialFeatures
+    from sklearn.linear_model import LinearRegression
+    import matplotlib.pyplot as plt
+
+    X = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+    y = np.array([1, 4, 9, 16, 25])
+
+    poly = PolynomialFeatures(degree=2)
+    X_poly = poly.fit_transform(X)
+
+    model = LinearRegression()
+    model.fit(X_poly, y)
+
+    plt.scatter(X, y, color='blue', marker='o')
+    plt.plot(X, model.predict(poly.fit_transform(X)), color='red', linewidth=2)
+    plt.title('Polynomial Regression')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+    plt.show()
+    ```
+
+80. **Machine Learning - Multiple Regression:**
+    - Implementing multiple regression for multiple independent variables.
+
+    ```python
+    import numpy as np
+    from sklearn.linear_model import LinearRegression
+    import matplotlib.pyplot as plt
+
+    X = np.array([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]])
+    y = np.array([10, 12, 8, 15, 20])
+
+    model = LinearRegression()
+    model.fit(X, y)
+
+    # Predicting for a new data point
+    new_data = np.array([[6, 7]])
+    prediction = model.predict(new_data)
+
+    print("Predicted value:", prediction[0])
+    ```
+
+81. **Machine Learning - Scale:**
+    - Scaling features in machine learning for better model performance.
+
+    ```python
+    from sklearn.preprocessing import StandardScaler
+
+    data = [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
+
+    scaler = StandardScaler()
+    scaled_data = scaler.fit_transform(data)
+    ```
+
+82. **Machine Learning - Train/Test Split:**
+    - Splitting data into training and testing sets for model evaluation.
+
+    ```python
+    from sklearn.model_selection import train_test_split
+
+    X = [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
+    y = [10, 12, 8, 15, 20]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    ```
+
+83. **Machine Learning - Decision Tree:**
+    - Implementing a decision tree classifier.
+
+    ```python
+    from sklearn.tree import DecisionTreeClassifier
+    from sklearn.datasets import load_iris
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
+
+    iris = load_iris()
+    X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=42)
+
+    model = DecisionTreeClassifier()
+    model.fit(X_train, y_train)
+    predictions = model.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+    ```
+
+84. **Machine Learning - Confusion Matrix:**
+    - Evaluating the performance of a classification model using a confusion matrix.
+
+    ```python
+    from sklearn.metrics import confusion_matrix
+
+    y_true = [1, 0, 1, 2, 1, 0, 1]
+    y_pred = [1, 0, 0, 2, 1, 0, 1]
+
+    cm = confusion_matrix(y_true, y_pred)
+    ```
+
+85. **Machine Learning - Hierarchical Clustering:**
+    - Implementing hierarchical clustering for grouping similar data points.
+
+    ```python
+    from scipy.cluster.hierarchy import dendrogram, linkage
+    import matplotlib.pyplot as plt
+
+    data = [[1, 2], [2, 3], [3, 4], [10, 12], [11, 14], [12, 15]]
+
+    linked = linkage(data, 'single')
+    dendrogram(linked, orientation='top', distance_sort='descending', show_leaf_counts=True)
+    plt.show()
+    ```
+
+86. **Machine Learning - Logistic Regression:**
+    - Implementing logistic regression for binary classification.
+
+    ```python
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.datasets import load_iris
+    from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
+
+    iris = load_iris()
+    X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=42)
+
+    model = LogisticRegression()
+    model.fit(X_train, y_train)
+    predictions = model.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+    ```
+
+87. **Machine Learning - Grid Search:**
+    - Hyperparameter tuning using grid search in machine learning.
+
+    ```python
+    from sklearn.model_selection import GridSearchCV
+    from sklearn.svm import SVC
+
+    parameters = {'kernel': ('linear', 'rbf'), 'C': [1, 10]}
+
+    svc = SVC()
+    grid_search = GridSearchCV(svc, parameters)
+    grid_search.fit(X_train, y_train)
+    ```
+
+88. **Machine Learning - Categorical Data:**
+    - Handling categorical data in machine learning.
+
+    ```python
+    from sklearn.preprocessing import OneHotEncoder
+
+    data = [['red', 'small'], ['blue', 'large'], ['green', 'medium']]
+    encoder = OneHotEncoder()
+    encoded_data = encoder.fit_transform(data).toarray()
+    ```
+
+89. **Machine Learning - K-means:**
+    - Implementing K-means clustering for grouping data points.
+
+    ```python
+    from sklearn.cluster import KMeans
+
+    data = [[1, 2], [2, 3], [10, 12], [11, 14]]
+    kmeans = KMeans(n_clusters=2)
+    kmeans.fit(data)
+    ```
+
+90. **Machine Learning - Bootstrap Aggregation (Bagging):**
+    - Using bootstrap aggregation for improving model accuracy.
+
+    ```python
+    from sklearn.ensemble import BaggingClassifier
+    from sklearn.tree import DecisionTreeClassifier
+
+    base_model = DecisionTreeClassifier()
+    model = BaggingClassifier(base_model, n_estimators=10)
+    model.fit(X_train, y_train)
+    ```
+
+If you have specific questions or if you'd like more detailed examples, feel free to
+
+Certainly! Let's continue with the next set of topics:
+
+91. **Machine Learning - Cross Validation:**
+    - Implementing cross-validation for assessing model performance.
+
+    ```python
+    from sklearn.model_selection import cross_val_score
+    from sklearn.linear_model import LogisticRegression
+
+    model = LogisticRegression()
+    scores = cross_val_score(model, X_train, y_train, cv=5)
+    ```
+
+92. **Machine Learning - AUC - ROC Curve:**
+    - Evaluating binary classification model performance using the AUC-ROC curve.
+
+    ```python
+    from sklearn.metrics import roc_curve, auc
+    import matplotlib.pyplot as plt
+
+    fpr, tpr, _ = roc_curve(y_true, y_scores)
+    roc_auc = auc(fpr, tpr)
+
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'AUC = {roc_auc:.2f}')
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Receiver Operating Characteristic (ROC) Curve')
+    plt.legend(loc='lower right')
+    plt.show()
+    ```
+
+93. **Machine Learning - K-nearest neighbors (KNN):**
+    - Implementing K-nearest neighbors for classification.
+
+    ```python
+    from sklearn.neighbors import KNeighborsClassifier
+
+    model = KNeighborsClassifier(n_neighbors=3)
+    model.fit(X_train, y_train)
+    predictions = model.predict(X_test)
+    ```
+
+94. **Python MySQL - MySQL Get Started:**
+    - Connecting and interacting with MySQL database using Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+    ```
+
+95. **Python MySQL - MySQL Create Database:**
+    - Creating a MySQL database using Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password"
+    )
+
+    mycursor = mydb.cursor()
+    mycursor.execute("CREATE DATABASE mydatabase")
+    ```
+
+96. **Python MySQL - MySQL Create Table:**
+    - Creating a MySQL table using Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+
+    mycursor = mydb.cursor()
+    mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
+    ```
+
+97. **Python MySQL - MySQL Insert:**
+    - Inserting data into a MySQL table using Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
+    val = ("John Doe", "123 Main St")
+    mycursor.execute(sql, val)
+    mydb.commit()
+    ```
+
+98. **Python MySQL - MySQL Select:**
+    - Retrieving data from a MySQL table using Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+
+    mycursor = mydb.cursor()
+    mycursor.execute("SELECT * FROM customers")
+    result = mycursor.fetchall()
+    ```
+
+99. **Python MySQL - MySQL Where:**
+    - Filtering data using the WHERE clause in MySQL with Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+
+    mycursor = mydb.cursor()
+    sql = "SELECT * FROM customers WHERE address = '123 Main St'"
+    mycursor.execute(sql)
+    result = mycursor.fetchall()
+    ```
+
+100. **Python MySQL - MySQL Order By:**
+    - Sorting data using the ORDER BY clause in MySQL with Python.
+
+    ```python
+    import mysql.connector
+
+    mydb = mysql.connector.connect(
+      host="localhost",
+      user="username",
+      password="password",
+      database="mydatabase"
+    )
+
+    mycursor = mydb.cursor()
+    sql = "SELECT * FROM customers ORDER BY name"
+    mycursor.execute(sql)
+    result = mycursor.fetchall()
+    ```
+
+101. **Python MongoDB - MongoDB Get Started:**
+    - Connecting and interacting with MongoDB using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    ```
+
+102. **Python MongoDB - MongoDB Create Database:**
+    - Creating a MongoDB database using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    ```
+
+103. **Python MongoDB - MongoDB Create Collection:**
+    - Creating a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+    ```
+
+104. **Python MongoDB - MongoDB Insert:**
+    - Inserting data into a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    mydict = { "name": "John Doe", "address": "123 Main St" }
+    x = mycol.insert_one(mydict)
+    ```
+
+105. **Python MongoDB - MongoDB Find:**
+    - Retrieving data from a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    result = mycol.find()
+    ```
+
+106. **Python MongoDB - MongoDB Query:**
+    - Querying data from a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    myquery = { "address": "123 Main St" }
+    result = mycol.find(myquery)
+    ```
+
+107. **Python MongoDB - MongoDB Sort:**
+    - Sorting data in a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    result = mycol.find().sort("name")
+    ```
+
+108. **Python MongoDB - MongoDB Delete:**
+    - Deleting data from a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    myquery = { "address": "123 Main St" }
+    mycol.delete_one(myquery)
+    ```
+
+109. **Python MongoDB - MongoDB Drop Collection:**
+    - Dropping a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    mycol.drop()
+    ```
+
+110. **Python MongoDB - MongoDB Update:**
+    - Updating data in a MongoDB collection using Python.
+
+    ```python
+    import pymongo
+
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["mydatabase"]
+    mycol = mydb["customers"]
+
+    myquery = { "address": "123 Main St" }
+    newvalues = { "$set": { "address": "456 Oak St" } }
+    mycol.update_one(myquery, newvalues)
+    ```
+
+111. **Python Reference - Python Overview:**
+    - A brief overview of Python and its key features.
+
+    ```python
+    # Python is a versatile programming language known for its simplicity and readability.
+    # It supports procedural, object-oriented, and functional programming paradigms.
+    # Python is dynamically typed and has automatic memory management.
+    ```
+
+112. **Python Reference - Python Built-in Functions:**
+    - Exploring some commonly used built-in functions in Python.
+
+    ```python
+    # Examples of built-in functions:
+    print("Hello, World!")
+    len([1, 2, 3])
+    max(4, 7, 1)
+    ```
+
+113. **Python Reference - Python String Methods:**
+    - Common string manipulation methods in Python.
+
+    ```python
+    text = "Hello, World!"
+
+    text.upper()
+    text.lower()
+    text.strip()
+    text.replace("Hello", "Hi")
+    text.split(",")
+    ```
+
+114. **Python Reference - Python List Methods:**
+    - Basic operations and methods on lists in Python.
+
+    ```python
+    my_list = [1, 2, 3, 4, 5]
+
+    my_list.append(6)
+    my_list.pop(2)
+    my_list.extend([7, 8])
+    my_list.index(4)
+    ```
+
+115. **Python Reference - Python Dictionary Methods:**
+    - Working with dictionaries and their methods in Python.
+
+    ```python
+    my_dict = {"name": "John", "age": 25, "city": "New York"}
+
+    my_dict.keys()
+    my_dict.values()
+    my_dict.items()
+    my_dict.get("age")
+    ```
+
+116. **Python Reference - Python Tuple Methods:**
+    - Understanding tuples and their methods in Python.
+
+    ```python
+    my_tuple = (1, 2, 3, 4, 5)
+
+    my_tuple.count(3)
+    my_tuple.index(4)
+    ```
+
+117. **Python Reference - Python Set Methods:**
+    - Performing operations on sets in Python.
+
+    ```python
+    my_set = {1, 2, 3, 4, 5}
+
+    my_set.add(6)
+    my_set.remove(3)
+    my_set.union({5, 7})
+    my_set.intersection({4, 5, 6})
+    ```
+
+118. **Python Reference - Python File Methods:**
+    - Handling files in Python.
+
+    ```python
+    # Example of reading a file:
+    with open("example.txt", "r") as file:
+        content = file.read()
+    ```
+
+119. **Python Reference - Python Keywords:**
+    - Reserved words with special meanings in Python.
+
+    ```python
+    # Examples of keywords:
+    if, else, elif, while, for, def, class, True, False, None
+    ```
+
+120. **Python Reference - Python Exceptions:**
+    - Handling exceptions and errors in Python.
+
+    ```python
+    try:
+        result = 10 / 0
+    except ZeroDivisionError as e:
+        print(f"Error: {e}")
+    ```
+
+121. **Python Reference - Python Glossary:**
+    - A glossary of important terms and concepts in Python.
+
+    ```python
+    # Examples of glossary terms:
+    - Module: A file containing Python definitions and statements.
+    - Iterable: An object capable of returning its elements one at a time.
+    - Decorator: A special type of function that can modify the behavior of another function.
+    ```
+
+122. **Module Reference - Random Module:**
+    - Using the `random` module for generating random numbers.
+
+    ```python
+    import random
+
+    random_number = random.randint(1, 10)
+    ```
+
+123. **Module Reference - Requests Module:**
+    - Making HTTP requests using the `requests` module.
+
+    ```python
+    import requests
+
+    response = requests.get("https://www.example.com")
+    content = response.text
+    ```
+
+124. **Module Reference - Statistics Module:**
+    - Performing statistical operations using the `statistics` module.
+
+    ```python
+    import statistics
+
+    data = [1, 2, 3, 4, 5]
+    mean = statistics.mean(data)
+    median = statistics.median(data)
+    ```
+
+125. **Module Reference - Math Module:**
+    - Common mathematical functions in the `math` module.
+
+    ```python
+    import math
+
+    sqrt_value = math.sqrt(25)
+    cosine_value = math.cos(math.pi / 4)
+    ```
+
+126. **Module Reference - cMath Module:**
+    - Complex number arithmetic with the `cmath` module.
+
+    ```python
+    import cmath
+
+    complex_num = complex(1, 2)
+    square_root = cmath.sqrt(complex_num)
+    ```
+
+127. **Python How To - Remove List Duplicates:**
+    - Removing duplicate elements from a list.
+
+    ```python
+    my_list = [1, 2, 2, 3, 4, 4, 5]
+    unique_list = list(set(my_list))
+    ```
+
+128. **Python How To - Reverse a String:**
+    - Reversing the characters of a string.
+
+    ```python
+    my_string = "Hello, World!"
+    reversed_string = my_string[::-1]
+    ```
+
+129. **Python How To - Add Two Numbers:**
+    - Simple addition of two numbers.
+
+    ```python
+    num1 = 5
+    num2 = 10
+    sum_result = num1 + num2
+    ```
+
+130. **Python Tutorial - Python File Handling:**
+    - Overview of file handling operations in Python.
+
+    ```python
+    # Example of writing to a file:
+    with open("example.txt", "w") as file:
+        file.write("Hello, File!")
+
+    # Example of reading from a file:
+    with open("example.txt", "r") as file:
+        content = file.read()
+    ```
+
+131. **Python Tutorial - Python Read Files:**
+    - Reading content from a file in Python.
+
+    ```python
+    with open("example.txt", "r") as file:
+        content = file.read()
+    ```
+
+132. **Python Tutorial - Python Write/Create Files:**
+    - Writing or creating a file in Python.
+
+    ```python
+    with open("example.txt", "w") as file:
+        file.write("Hello, File!")
+    ```
+
+133. **Python Tutorial - Python Delete Files:**
+    - Deleting a file in Python.
+
+    ```python
+    import os
+
+    os.remove("example.txt")
+    ```
+
+134. **Python Tutorial - Python Modules:**
+    - Creating and using modules in Python.
+
+    ```python
+    # Example of a module named mymodule.py
+    def greet(name):
+        return f"Hello, {name}!"
+    ```
+
+135. **Python Tutorial - Python Dates:**
+    - Working with dates in Python using the `datetime` module.
+
+    ```python
+    from datetime import datetime
+
+    current_date = datetime.now()
+    formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+    ```
+
+136. **Python Tutorial - Python Math:**
+    - Basic math operations in Python.
+
+    ```python
+    import math
+
+    sqrt_value = math.sqrt(25)
+    cosine_value = math.cos(math.pi / 4)
+    ```
+
+137. **Python Tutorial - Python JSON:**
+    - Working with JSON data in Python.
+
+    ```python
+    import json
+
+    data = '{"name": "John", "age": 30}'
+    parsed_data = json.loads(data)
+    ```
+
+138. **Python Tutorial - Python RegEx:**
+    - Using regular expressions in Python for pattern matching.
+
+    ```python
+    import re
+
+    text = "The quick brown fox"
+    match_result = re.search(r"\bfox\b", text)
+    ```
+
+139. **Python Tutorial - Python PIP:**
+    - Managing Python packages using PIP.
+
+    ```bash
+    pip install package_name
+    ```
+
+140. **Python Tutorial - Python Try...Except:**
+    - Handling exceptions using try...except in Python.
+
+    ```python
+    try:
+        result = 10 / 0
+    except ZeroDivisionError as e:
+        print(f"Error: {e}")
+    ```
+
+141. **Python Tutorial - Python User Input:**
+    - Getting user input in Python.
+
+    ```python
+    user_input = input("Enter your name: ")
+    print(f"Hello, {user_input}!")
+    ```
+
+142. **Python Tutorial - Python String Formatting:**
+    - Formatting strings in Python.
+
+    ```python
+    name = "John"
+    age = 25
+    print("My name is {} and I am {} years old.".format(name, age))
+    ```
+
+143. **Python Tutorial - Matplotlib Intro:**
+    - Introduction to Matplotlib for data visualization.
+
+    ```python
+    import matplotlib.pyplot as plt
+
+    plt.plot([1, 2, 3, 4])
+    plt.show()
+    ```
+
+144. **Python Tutorial - Matplotlib Get Started:**
+    - Getting started with Matplotlib for plotting.
+
+    ```python
+    import matplotlib.pyplot as plt
+
+    x = [1, 2, 3, 4]
+    y = [10, 15, 7, 12]
+    plt.plot(x, y)
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Simple Plot")
+    plt.show()
+    ```
+
+145. **Python Tutorial - Matplotlib Pyplot:**
+    - Using Pyplot module in Matplotlib.
+
+    ```python
+    import matplotlib.pyplot as plt
+
+    x = [1, 2, 3, 4]
+    y = [10, 15, 7, 12]
+    plt.plot(x, y, label='Line 1')
+    plt.scatter(x, y, color='red', label='Points')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Plot with Pyplot")
+    plt.legend()
+    plt.show()
+    ```
+
+146. **Python Tutorial - Matplotlib Plotting:**
+    - Exploring different types of plots in Matplotlib.
+
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(0, 10, 100)
+    y1 = np.sin(x)
+    y2 = np.cos(x)
+
+    plt.plot(x, y1, label='Sin')
+    plt.plot(x, y2, label='Cos')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Sin and Cos Functions")
+    plt.legend()
+    plt.show()
+    ```
+
+147. **Python Tutorial - Matplotlib Markers:**
+    - Using markers in Matplotlib plots.
+
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x)
+
+    plt.plot(x, y, marker='o', linestyle='-', color='b', label='Sin Wave')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Sin Wave with Markers")
+    plt.legend()
+    plt.show()
+    ```
+
+148. **Python Tutorial - Matplotlib Line:**
+    - Customizing line styles in Matplotlib.
+
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x)
+
+    plt.plot(x, y, linestyle='--', linewidth=2, color='r', label='Sin Wave')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Sin Wave with Custom Line Style")
+    plt.legend()
+    plt.show()
+    ```
+
+149. **Python Tutorial - Matplotlib Labels:**
+    - Adding labels and annotations in Matplotlib.
+
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x)
+
+    plt.plot(x, y, label='Sin Wave')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Sin Wave with Labels")
+    plt.legend()
+    plt.annotate('Peak', xy=(np.pi/2, 1), xytext=(np.pi/2 + 1, 0.8),
+                 arrowprops=dict(facecolor='black', shrink=0.05))
+    plt.show()
+    ```
+
+150. **Python Tutorial - Matplotlib Grid:**
+    - Adding a grid to Matplotlib plots.
+
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x)
+
+    plt.plot(x, y, label='Sin Wave')
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Sin Wave with Grid")
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+    ```
